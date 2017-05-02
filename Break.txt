@@ -1,0 +1,9 @@
+import webbrowser
+import time
+n=1
+s=3
+print(time.ctime())
+while(n<=s):
+   time.sleep(2)
+   webbrowser.open("www.youtube.com/watch?v=jF1NM0U8Plg")
+   n=n+1
